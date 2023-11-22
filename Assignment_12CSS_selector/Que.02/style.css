@@ -1,0 +1,10 @@
+ul li{
+    list-style: none;
+    text-decoration: underline;
+}
+ul > li {
+    display: inline-block;
+}
+li + li {
+    margin: 10px;
+}

@@ -1,0 +1,37 @@
+nav a {
+    color: Red;
+}
+
+nav>h2 {
+    color: red;
+    background-color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+div+p {
+    color: red;
+}
+
+a[href] {
+    color: red;
+    text-decoration: none;
+}
+
+a[class="active"] {
+    color: green;
+    text-decoration: underline;
+}
+a[target="_self"]{
+    background-color: rgb(93, 238, 70);
+}
+
+p:last-child::after {
+    content: "...";
+}
+li::marker{
+    color: blue;
+}
+p:nth-child(even)::first-letter{
+color: red;
+font-size: 30px;
+}
